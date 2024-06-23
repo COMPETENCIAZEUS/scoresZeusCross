@@ -7,48 +7,72 @@ document.addEventListener('DOMContentLoaded', () => {
         beginnerMen: [
             { name: 'Juan Pérez',
                  score: 100,
-                  events: ['Evento 1 (sin realizar) Carril 2', 'Evento 2  (sin realizar) Carril 2', 'Evento 3(sin realizar) Carril 2', 'Evento 4 (sin realizar) Carril 2'],
+                  events: ['Evento:1 - Reps:0 - Carril:2',
+                     'Evento:2 - Reps:0 - Carril:2',
+                      'Evento:3 - Reps:0 - Carril:2',
+                       'Evento:4 - Reps:0 - Carril:2'],
                    heat: 'Heat 1' },
            
             
             { name: 'Carlos López',
                  score: 75,
-                  events: ['Evento 1 (sin realizar) Carril 1 ', 'Evento 2 (sin realizar) Carril 1', 'Evento 3 (sin realizar) Carril 1', 'Evento 4 (sin realizar) Carril 1'],
+                  events: ['Evento:1 - Reps:0 - Carril:1', 
+                    'Evento:2  - Reps:0 - Carril:1',
+                     'Evento:3  - Reps:0 - Carril:1', 
+                     'Evento:4   - Reps:0 -Carril:1'],
                    heat: 'Heat 1' },
             
 
             {name: 'Jose Juan',
                  score: 150,
-                 events: ['Evento 1 (sin realizar) Carril 3 ', 'Evento 2 (sin realizar) Carril 3', 'Evento 3 (sin realizar) Carril 3', 'Evento 4 (sin realizar) Carril 3'],
+                 events: ['Evento:1 - Reps:0 - Carril:3 ', 
+                    'Evento:2  - Reps:0 - Carril:3',
+                    'Evento:3 - Reps:0 - Carril:3',
+                     'Evento:4 - Reps:0 - Carril:3'],
                   heat: 'Heat 1' },
 
 
              {name: 'Angel Mirador',
                 score: 10,
-                events: ['Evento 1 (sin realizar) Carril 4 ', 'Evento 2 (sin realizar) Carril 4', 'Evento 4 (sin realizar) Carril 4', 'Evento 4 (sin realizar) Carril 4'],
+                events: ['Evento 1 - Reps:0 - Carril 4 ',
+                     'Evento:2 - Reps:0 - Carril:4',
+                      'Evento:3 - Reps:0 -Carril:4', 
+                      'Evento 4  - Reps:0 -Carril:4'],
                     heat: 'Heat 1' },
 
 
               {name: 'Erick Fuentes',
                     score: 15,
-                    events: ['Evento 1 (sin realizar) Carril 1 ', 'Evento 2 (sin realizar) Carril 1', 'Evento 3 (sin realizar) Carril 1', 'Evento 4 (sin realizar) Carril 1'],
+                    events: ['Evento:1 - Reps:0 - Carril:1 ',
+                         'Evento:2  - Reps:0 - Carril:1',
+                          'Evento:3 - Reps:0 - Carril:1',
+                           'Evento:4 - Reps:0 - Carril:1'],
                         heat: 'Heat 2' },
 
             {name: 'Javier Fuentes',
                 score: 35,
-                 events: ['Evento 1 (sin realizar) Carril 2 ', 'Evento 2 (sin realizar) Carril 2', 'Evento 3 (sin realizar) Carril 2', 'Evento 4 (sin realizar) Carril 2'],
+                 events: ['Evento 1  - Reps:0 -Carril 2 ', 
+                    'Evento:2 - Reps:0 - Carril:2',
+                    'Evento:3 - Reps:0 -Carril:2',
+                    'Evento:4 - Reps:0 - Carril:2'],
                   heat: 'Heat 2' },
 
 
             {name: 'Jose',
                  score: 156,
-                    events: ['Evento 1 (sin realizar) Carril 3 ', 'Evento 2 (sin realizar) Carril 3', 'Evento 3 (sin realizar) Carril 3', 'Evento 4 (sin realizar) Carril 3'],
+                    events: ['Evento:1 - Reps:0 - Carril 3 ', 
+                        'Evento:2 - Reps:0 - Carril:3', 
+                        'Evento:3 - Reps:0 - Carril:3', 
+                        'Evento: 4 - Reps:0 - Carril:3'],
                     heat: 'Heat 2' },
 
 
              {name: 'Camilo Anda',
                  score: 150,
-                events: ['Evento 1 (sin realizar) Carril 4 ', 'Evento 2 (sin realizar) Carril 4', 'Evento 3 (sin realizar) Carril 4', 'Evento 4 (sin realizar) Carril 4'],
+                events: ['Evento:1 Reps:0- Carril 4 ', 
+                    'Evento:2 - Reps:0 - Carril:4', 
+                    'Evento:3 - Reps:0 - Carril:4', 
+                    'Evento:4 - Reps:0 - Carril:4'],
                      heat: 'Heat 2' },
 
         ],
@@ -70,24 +94,37 @@ document.addEventListener('DOMContentLoaded', () => {
     //HEAT 1 INICIO 
             { name: 'Ana García',
                  score: 60,
-                  events: ['Evento 1 (sin realizar) Carril 1 ', 'Evento 2 (sin realizar) Carril 1', 'Evento 3 (sin realizar) Carril 1', 'Evento 4 (sin realizar) Carril 1'],
+                  events: ['Evento:1 - Reps:0 - Carril:1 ',
+                     'Evento:2 - Reps:0 - Carril:1',
+                      'Evento:3 - Reps:0 - Carri: 1', 
+                      'Evento:4 - Reps:0 - Carril:1'],
                    heat: 'Heat 1' },
             
             { name: 'Laura Martínez',
                  score: 80,
-                  events: ['Evento 1 (sin realizar) Carril 2 ', 'Evento 2 (sin realizar) Carril 2', 'Evento 3 (sin realizar) Carril 2', 'Evento 4 (sin realizar) Carril 2'], 
+                  events: ['Evento 1 - Reps:0 - Carril 2 ',
+                     'Evento 2 - Reps:0 - Carril 2',
+                      'Evento 3 - Reps:0 - Carril 2', 
+                      'Evento 4 - Reps:0 -  Carril 2'], 
                   heat: 'Heat 2' },
+
 
 
             {name: 'Anita Sulia',
                 score: 151,
-                events: ['Evento 1 (sin realizar) Carril 3 ', 'Evento 2 (sin realizar) Carril 3', 'Evento 3 (sin realizar) Carril 3', 'Evento 4 (sin realizar) Carril 3'],
+                events: ['Evento 1 - Reps:0 - Carril 3 ',
+                     'Evento 2 - Reps:0 - Carril 3', 
+                     'Evento 3 - Reps:0 - Carril 3', 
+                     'Evento 4 - Reps:0 - Carril 3'],
                  heat: 'Heat 1' },
 
 
             {name: 'Anita Sulia',
                 score: 182,
-                events: ['Evento 1 (sin realizar) Carril 4 ', 'Evento 2 (sin realizar) Carril 4', 'Evento 3 (sin realizar) Carril 4', 'Evento 4 (sin realizar) Carril 4'],
+                events: ['Evento 1 - Reps:0 - Carril 4 ',
+                     'Evento 2 - Reps:0 - Carril 4',
+                      'Evento 3 - Reps:0 - Carril 4', 
+                      'Evento 4 - Reps:0 - Carril 4'],
                  heat: 'Heat 1' },
 
              //HEAT 1 FIN 
@@ -96,26 +133,38 @@ document.addEventListener('DOMContentLoaded', () => {
 
               {name: 'Juana Felix',
                 score: 114,
-                events: ['Evento 1 (sin realizar) Carril 1', 'Evento 2 (sin realizar) Carril 1', 'Evento 3 (sin realizar) Carril 1', 'Evento 4 (sin realizar) Carril 1'],
+                events: ['Evento 1 - Reps:0 - Carril 1', 
+                    'Evento 2 - Reps:0 - Carril 1',
+                     'Evento 3 - Reps:0 - Carril 1',
+                      'Evento 4 - Reps:0 - Carril 1'],
                  heat: 'Heat 2' },
 
 
               {name: 'Pedra Sanrda',
                 score: 160,
-                events: ['Evento 1 (sin realizar) Carril 2', 'Evento 2 (sin realizar) Carril 2', 'Evento 3 (sin realizar) Carril 2', 'Evento 4 (sin realizar) Carril 2'],
+                events: ['Evento 1 - Reps:0 - Carril 2',
+                     'Evento 2 - Reps:0 - Carril 2',
+                      'Evento 3 - Reps:0 - Carril 2',
+                       'Evento 4 - Reps:0 - Carril 2'],
                  heat: 'Heat 2' },
             
 
              {name: 'Andrea Simple',
                 score: 110,
-                events: ['Evento 1 (sin realizar) Carril 3 ', 'Evento 2 (sin realizar) Carril 3', 'Evento 3 (sin realizar) Carril 3', 'Evento 4 (sin realizar) Carril 3'],
+                events: ['Evento 1 - Reps:0 - Carril 3 ', 
+                    'Evento 2 - Reps:0 - Carril 3',
+                     'Evento 3 - Reps:0 - Carril 3',
+                      'Evento 4 - Reps:0 - Carril 3'],
                  heat: 'Heat 2' },
 
 
             
              {name: 'Esmeralda Fin',
                 score: 50,
-                events: ['Evento 1 (sin realizar) Carril 4 ', 'Evento 2 (sin realizar) Carril 4', 'Evento 3 (sin realizar) Carril 4', 'Evento 4 (sin realizar) Carril 4'],
+                events: ['Evento 1 - Reps:0 - Carril 4 ',
+                     'Evento 2 - Reps:0 -Carril 4',
+                      'Evento 3 - Reps:0 - Carril 4', 
+                      'Evento 4 - Reps:0 - Carril 4'],
                  heat: 'Heat 2' },
 
                  //HEAT 2 FIN 
@@ -136,76 +185,76 @@ document.addEventListener('DOMContentLoaded', () => {
         //HEAT 1 HOMBRES INICIO
             { name: 'Miguel Rodríguez',
              score: 90, 
-             events: ['Evento 1 (sin realizar) Carril 1 ', 
-             'Evento 2 (sin realizar) Carril 1',
-              'Evento 3 (sin realizar) Carril 1',
-               'Evento 4 (sin realizar) Carril 1'], 
+             events: ['Evento 1- Reps:0 - Carril 1 ', 
+             'Evento 2 - Reps:0 - Carril 1',
+              'Evento 3 - Reps:0 - Carril 1',
+               'Evento 4 - Reps:0 - Carril 1'], 
              heat: 'Heat 1' },
 
 
              { name: 'Balam Suizo',
              score: 60, 
-             events: ['Evento 1 (sin realizar) Carril 2 ',
-              'Evento 2 (sin realizar) Carril 2', 
-              'Evento 3 (sin realizar) Carril 2', 
-              'Evento 4 (sin realizar) Carril 2'], 
+             events: ['Evento 1- Reps:0 - Carril 2 ',
+              'Evento 2- Reps:0 - Carril 2', 
+              'Evento 3- Reps:0 - Carril 2', 
+              'Evento 4 - Reps:0 - Carril 2'], 
              heat: 'Heat 1' },
 
 
              { name: 'Enrique Hert',
              score: 92, 
-             events: ['Evento 1 (sin realizar) Carril 3 ',
-              'Evento 2 (sin realizar) Carril 3',
-               'Evento 3 (sin realizar) Carril 3', 
-               'Evento 4 (sin realizar) Carril 3'], 
+             events: ['Evento 1 - Reps:0 - Carril 3 ',
+              'Evento 2- Reps:0 - Carril 3',
+               'Evento 3 - Reps:0 - Carril 3', 
+               'Evento 4 - Reps:0 - Carril 3'], 
              heat: 'Heat 1' },
 
 
              { name: 'Josue Cantu',
              score: 9, 
-             events: ['Evento 1 (sin realizar) Carril 4 ',
-              'Evento 2 (sin realizar) Carril 4',
-               'Evento 3 (sin realizar) Carril 4',
-                'Evento 4 (sin realizar) Carril 4'], 
+             events: ['Evento 1- Reps:0 - Carril 4 ',
+              'Evento 2 - Reps:0 - Carril 4',
+               'Evento 3 - Reps:0 - Carril 4',
+                'Evento 4 - Reps:0 - Carril 4'], 
              heat: 'Heat 1' },
 
              //HEAT 1 HOMBRES FIN 
 
             //HEAT 2 HOMBRES INICIO 
 
-            { name: 'Natta Nael',
-             score: 85, 
-             events: ['Evento 1 (sin realizar) Carril 1 ',
-              'Evento 2 (sin realizar) Carril 1',
-               'Evento 3 (sin realizar) Carril 1', 
-               'Evento 4 (sin realizar) Carril 1'], 
-             heat: 'Heat 2' },
+            { name: 'Conos ',
+                score: 103, 
+                events: ['Evento 1 - Reps:0 - Carril 2 ',
+                 'Evento 2  - Reps:0 - Carril 2',
+                  'Evento 3  - Reps:0 - Carril 2',
+                   'Evento 4  - Reps:0 - Carril 2'], 
+                heat: 'Heat 2' },
 
-            
+             
              { name: 'Cona Supo',
              score: 103, 
-             events: ['Evento 1 (sin realizar) Carril 2 ',
-              'Evento 2 (sin realizar) Carril 2',
-               'Evento 3 (sin realizar) Carril 2',
-                'Evento 4 (sin realizar) Carril 2'], 
+             events: ['Evento 1  - Reps:0 - Carril 2 ',
+              'Evento 2  - Reps:0 - Carril 2',
+               'Evento 3  - Reps:0 - Carril 2',
+                'Evento 4  - Reps:0 -Carril 2'], 
              heat: 'Heat 2' },
              
              
              { name: 'Pepe Lopez',
              score: 90, 
-             events: ['Evento 1 (sin realizar) Carril 3 ',
-              'Evento 2 (sin realizar) Carril 3',
-               'Evento 3 (sin realizar) Carril 3', 
-               'Evento 4 (sin realizar) Carril 3'], 
+             events: ['Evento 1 - Reps:0 - Carril 3 ',
+              'Evento 2  - Reps:0 - Carril 3',
+               'Evento 3  - Reps:0 - Carril 3', 
+               'Evento 4 - Reps:0 - Carril 3'], 
              heat: 'Heat 2' },
              
              
              { name: 'ez',
              score: 90, 
-             events: ['Evento 1 (sin realizar) Carril 4 ',
-              'Evento 2 (sin realizar) Carril 4',
-               'Evento 3 (sin realizar) Carril 4',
-                'Evento 4 (sin realizar) Carril 4'], 
+             events: ['Evento 1  - Reps:0 - Carril 4 ',
+              'Evento 2  - Reps:0 - Carril 4',
+               'Evento 3  - Reps:0 - Carril 4',
+                'Evento 4 - Reps:0 - Carril 4'], 
              heat: 'Heat 2' },
 
              //HEAT 2 HOMBRES FIN 
@@ -226,37 +275,37 @@ document.addEventListener('DOMContentLoaded', () => {
         intermediateWomen: [
              { name: 'Paola Comn',
              score: 90, 
-             events: ['Evento 1 (sin realizar) Carril 1 ', 
-             'Evento 2 (sin realizar) Carril 1',
-              'Evento 3 (sin realizar) Carril 1',
-               'Evento 4 (sin realizar) Carril 1'], 
+             events: ['Evento 1 - Reps:0 - Carril 1 ', 
+             'Evento 2 - Reps:0 - Carril 1',
+              'Evento 3  - Reps:0 - Carril 1',
+               'Evento 4  - Reps:0 - Carril 1'], 
              heat: 'Heat 1' },
 
 
                { name: 'Alessandra Bot ',
              score: 9, 
-             events: ['Evento 1 (sin realizar) Carril 2 ', 
-             'Evento 2 (sin realizar) Carril 2',
-              'Evento 3 (sin realizar) Carril 2',
-               'Evento 4 (sin realizar) Carril 2'], 
+             events: ['Evento 1 - Reps:0 - Carril 2 ', 
+             'Evento 2  - Reps:0 - Carril 2',
+              'Evento 3 - Reps:0 - Carril 2',
+               'Evento 4  - Reps:0 - Carril 2'], 
              heat: 'Heat 1' },
 
 
                { name: 'Esmeralda Ron',
              score: 110, 
-             events: ['Evento 1 (sin realizar) Carril 3 ', 
-             'Evento 2 (sin realizar) Carril 3',
-              'Evento 3 (sin realizar) Carril 3',
-               'Evento 4 (sin realizar) Carril 3'], 
+             events: ['Evento 1  - Reps:0 - Carril 3 ', 
+             'Evento 2  - Reps:0 - Carril 3',
+              'Evento 3 - Reps:0 - Carril 3',
+               'Evento 4  - Reps:0 -Carril 3'], 
              heat: 'Heat 1' },
 
 
                { name: 'Karen Funtes',
              score: 80, 
-             events: ['Evento 1 (sin realizar) Carril 4 ', 
-             'Evento 2 (sin realizar) Carril 4',
-              'Evento 3 (sin realizar) Carril 4',
-               'Evento 4 (sin realizar) Carril 4'], 
+             events: ['Evento 1  - Reps:0 - Carril 4 ', 
+             'Evento 2  - Reps:0 - Carril 4',
+              'Evento 3  - Reps:0 - Carril 4',
+               'Evento 4  - Reps:0 - Carril 4'], 
              heat: 'Heat 1' },
 
              //HEAT 1 FIN 
@@ -264,37 +313,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
                { name: 'Valentina FDi',
              score: 50, 
-             events: ['Evento 1 (sin realizar) Carril 1 ', 
-             'Evento 2 (sin realizar) Carril 1',
-              'Evento 3 (sin realizar) Carril 1',
-               'Evento 4 (sin realizar) Carril 1'], 
+             events: ['Evento 1 - Reps:0 - Carril 1 ', 
+             'Evento 2  - Reps:0 - Carril 1',
+              'Evento 3 - Reps:0 - Carril 1',
+               'Evento 4  - Reps:0 -Carril 1'], 
              heat: 'Heat 2' },
 
 
                { name: 'DanaE ',
              score: 125, 
-             events: ['Evento 1 (sin realizar) Carril 2 ', 
-             'Evento 2 (sin realizar) Carril 2',
-              'Evento 3 (sin realizar) Carril 2',
-               'Evento 4 (sin realizar) Carril 2'], 
+             events: ['Evento 1 - Reps:0 - Carril 2 ', 
+             'Evento 2 - Reps:0 - Carril 2',
+              'Evento 3  - Reps:0 - Carril 2',
+               'Evento 4 - Reps:0 - Carril 2'], 
              heat: 'Heat 2' },
 
 
                { name: 'Amareica Aguilas',
              score: 63, 
-             events: ['Evento 1 (sin realizar) Carril 3 ', 
-             'Evento 2 (sin realizar) Carril 3',
-              'Evento 3 (sin realizar) Carril 3',
-               'Evento 4 (sin realizar) Carril 3'], 
+             events: ['Evento 1 - Reps:0 - Carril 3 ', 
+             'Evento 2 - Reps:0 - Carril 3',
+              'Evento 3  - Reps:0 - Carril 3',
+               'Evento 4 - Reps:0 - Carril 3'], 
              heat: 'Heat 2' },
 
 
                { name: 'Anastasia Can',
              score: 90, 
-             events: ['Evento 1 (sin realizar) Carril 4 ', 
-             'Evento 2 (sin realizar) Carril 4',
-              'Evento 3 (sin realizar) Carril 4',
-               'Evento 4 (sin realizar) Carril 4'], 
+             events: ['Evento 1  - Reps:0 - Carril 4 ', 
+             'Evento 2 - Reps:0 - Carril 4',
+              'Evento 3  - Reps:0 - Carril 4',
+               'Evento 4 - Reps:0 - Carril 4'], 
              heat: 'Heat 2' },
         ]
     };
