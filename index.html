@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Puntos - CrossFit</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="logo" class="logo">
+        <img src="images/logo.png" alt="Logo">
+    </div>
+    <div class="container">
+        <h1>Gestión de Puntos - CrossFit</h1>
+        <p class="last-update">Última actualización: <span id="last-update-time"></span></p>
+        <button class="action-button" onclick="toggleImage(1)">Ver Eventos 1</button>
+        <button class="action-button" onclick="toggleImage(2)">Ver Eventos 2</button>
+        <button class="action-button" onclick="toggleImage(3)">Ver Eventos 3</button>
+        <button class="action-button" onclick="toggleImage(4)">Ver Eventos 4</button>
+        <div class="image-viewer" id="image-viewer-1">
+            <span class="close" onclick="toggleImage(1)">&times;</span>
+            <img src="images/evento1.jpg" alt="Evento 1">
+        </div>
+        <div class="image-viewer" id="image-viewer-2">
+            <span class="close" onclick="toggleImage(2)">&times;</span>
+            <img src="images/evento2.jpg" alt="Evento 2">
+        </div>
+        <div class="image-viewer" id="image-viewer-3">
+            <span class="close" onclick="toggleImage(3)">&times;</span>
+            <img src="images/evento3.jpg" alt="Evento 3">
+        </div>
+        <div class="image-viewer" id="image-viewer-4">
+            <span class="close" onclick="toggleImage(4)">&times;</span>
+            <img src="images/evento4.jpg" alt="Evento 4">
+        </div>
+
+        <div class="category">
+            <h2>Principiantes - Hombres</h2>
+            <table id="beginner-men-table" class="score-table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Puntaje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Filas de competidores -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="category">
+            <h2>Principiantes - Mujeres</h2>
+            <table id="beginner-women-table" class="score-table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Puntaje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Filas de competidores -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="category">
+            <h2>Intermedios - Hombres</h2>
+            <table id="intermediate-men-table" class="score-table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Puntaje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Filas de competidores -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="category">
+            <h2>Intermedios - Mujeres</h2>
+            <table id="intermediate-women-table" class="score-table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Puntaje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Filas de competidores -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
