@@ -1,20 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const logo = document.getElementById('logo');
-    logo.addEventListener('click', () => {
-        logo.style.display = 'none';
-    });
-
-    setTimeout(() => {
-        logo.style.display = 'none';
-    }, 3000);
-
     const lastUpdateTime = document.getElementById('last-update-time');
     lastUpdateTime.innerText = new Date().toLocaleString();
 
     const competitors = {
         beginnerMen: [
-            { name: 'Juan Pérez', score: 100, events: ['Evento 1', 'Evento 2', 'Evento 3', 'Evento 4'], heat: 'Heat 1' },
-            { name: 'Carlos López', score: 700, events: ['Evento 1', 'Evento 2', 'Evento 3', 'Evento 4'], heat: 'Heat 2' }
+            { name: 'Juan Pérez', score: 50, events: ['Evento 1', 'Evento 2', 'Evento 3', 'Evento 4'], heat: 'Heat 1' },
+            { name: 'Carlos López', score: 70, events: ['Evento 1', 'Evento 2', 'Evento 3', 'Evento 4'], heat: 'Heat 2' }
         ],
         beginnerWomen: [
             { name: 'Ana García', score: 60, events: ['Evento 1', 'Evento 2', 'Evento 3', 'Evento 4'], heat: 'Heat 1' },
@@ -58,7 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
     populateTable('intermediateWomen', 'intermediate-women-table');
 });
 
-function toggleImage(viewerId) {
-    const viewer = document.getElementById(`image-viewer-${viewerId}`);
-    viewer.style.display = viewer.style.display === 'flex' ? 'none' : 'flex';
+function redirectToInstagram(url) {
+    window.location.href = url;
 }
