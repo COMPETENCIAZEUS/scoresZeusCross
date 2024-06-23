@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const competitors = {
         beginnerMen: [
-            { name: 'Juan Pérez', score: 50, events: ['Evento 1', 'Evento 2', 'Evento 3', 'Evento 4'], heat: 'Heat 1' },
+            { name: 'Juan Pérez', score: 5, events: ['Evento 1', 'Evento 2', 'Evento 3', 'Evento 4'], heat: 'Heat 1' },
             { name: 'Carlos López', score: 70, events: ['Evento 1', 'Evento 2', 'Evento 3', 'Evento 4'], heat: 'Heat 2' }
         ],
         beginnerWomen: [
