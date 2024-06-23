@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const competitors = {
         beginnerMen: [
-            { name: 'Juan Pérez', score: 505, events: ['Evento 1', 'Evento 2', 'Evento 3', 'Evento 4'], heat: 'Heat 1' },
-            { name: 'Carlos López', score: 7000, events: ['Evento 1', 'Evento 2', 'Evento 3', 'Evento 4'], heat: 'Heat 2' }
+            { name: 'Juan Pérez', score: 100, events: ['Evento 1', 'Evento 2', 'Evento 3', 'Evento 4'], heat: 'Heat 1' },
+            { name: 'Carlos López', score: 700, events: ['Evento 1', 'Evento 2', 'Evento 3', 'Evento 4'], heat: 'Heat 2' }
         ],
         beginnerWomen: [
             { name: 'Ana García', score: 60, events: ['Evento 1', 'Evento 2', 'Evento 3', 'Evento 4'], heat: 'Heat 1' },
