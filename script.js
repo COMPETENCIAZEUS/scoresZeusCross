@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //pricipiantes hombres 
     
     beginnerMen: [
-          { name: 'anaS',
+          { name: 'NAMELESS',
              score: 0, 
              lane: '1 HEAT: 1',
               events: 
