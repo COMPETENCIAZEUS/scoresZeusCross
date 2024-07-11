@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
 
-           { name: 'Carlos López',
+           { name: 'NAMELESS',
             score: 0, 
             lane: '2 HEAT: 1',
             events:
@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       
  
-             { name: 'Carlos López',
+             { name: 'NAMELESS',
               score: 0, 
               lane: '3 HEAT: 1',
               events:
