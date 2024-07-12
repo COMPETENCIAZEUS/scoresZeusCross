@@ -30,22 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
-
-              
-          { name: 'NAMELESS',
-           score: 0,
-            lane: '3 HEAT: 2',
-           events:
-           [{name: 'Evento 1', reps: 0, extra: 'Sin datos'}, 
-            {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
-            {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
-            {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
-
-
-
-
-
            
                            
                  ],
@@ -71,24 +55,34 @@ document.addEventListener('DOMContentLoaded', () => {
             score: 0, 
             lane: '2 HEAT: 1',
             events:
-            [{name: 'Evento 1', reps: 11, extra: 'Sin datos'}, 
-             {name: 'Evento 2', reps: 13, extra: 'Sin datos'}, 
-             {name: 'Evento 3', reps: 15, extra: 'Sin datos'},
-             {name: 'Evento 4', reps: 17, extra: 'Sin datos'}] },
+            [{name: 'Evento 1', reps: 0, extra: 'Sin datos'}, 
+             {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
+             {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
+             {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
 
 
              { name: 'Margarita  Martinez',
               score: 0, 
               lane: '3 HEAT: 1',
               events:
-              [{name: 'Evento 1', reps: 11, extra: 'Sin datos'}, 
-               {name: 'Evento 2', reps: 13, extra: 'Sin datos'}, 
-               {name: 'Evento 3', reps: 15, extra: 'Sin datos'},
-               {name: 'Evento 4', reps: 17, extra: 'Sin datos'}] },
+              [{name: 'Evento 1', reps: 0, extra: 'Sin datos'}, 
+               {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
+               {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
+               {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
   
   
       
- 
+               { name: 'Sofia Navarro',
+                score: 0, 
+                lane: '4 HEAT: 1',
+                events:
+                [{name: 'Evento 1', reps: 0, extra: 'Sin datos'}, 
+                 {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
+                 {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
+                 {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
+    
+    
+        
            
 
 
@@ -168,19 +162,9 @@ document.addEventListener('DOMContentLoaded', () => {
            {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
     
 
-           { name: 'Sofia Navarro',
-            score: 0,
-             lane: '2 HEAT: 1',
-            events:
-            [{name: 'Evento 1', reps: 0, extra: 'Sin datos'}, 
-             {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
-             {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
-             {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
-      
- 
              { name: 'Lucía Navarro',
               score: 0,
-               lane: '3 HEAT: 1',
+               lane: '2 HEAT: 1',
               events:
               [{name: 'Evento 1', reps: 0, extra: 'Sin datos'}, 
                {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
@@ -227,3 +211,4 @@ document.addEventListener('DOMContentLoaded', () => {
 function redirectToInstagram(url) {
   window.location.href = url;
 }
+
