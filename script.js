@@ -80,6 +80,16 @@ document.addEventListener('DOMContentLoaded', () => {
                  {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
                  {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
                  {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
+
+                 { name: 'Ana Perez',
+                  score: 0, 
+                  lane: '5 HEAT: 1',
+                  events:
+                  [{name: 'Evento 1', reps: 0, extra: 'Sin datos'}, 
+                   {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
+                   {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
+                   {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
+      
     
     
         
@@ -170,6 +180,17 @@ document.addEventListener('DOMContentLoaded', () => {
                {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
                {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
                {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
+
+
+               { name: 'Catalina Cabrera',
+                score: 0,
+                 lane: '3 HEAT: 1',
+                events:
+                [{name: 'Evento 1', reps: 0, extra: 'Sin datos'}, 
+                 {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
+                 {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
+                 {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
+              
             
                        //HEAT1 FIN 
 
