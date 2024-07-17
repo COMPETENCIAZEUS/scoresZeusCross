@@ -81,28 +81,39 @@ document.addEventListener('DOMContentLoaded', () => {
                  {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
                  {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
 
+                 //heat 1 fin
+
+                 //heat 2 inicio
+
                  { name: 'Ana Perez',
                   score: 0, 
-                  lane: '5 HEAT: 1',
+                  lane: '1 HEAT: 2',
                   events:
                   [{name: 'Evento 1', reps: 0, extra: 'Sin datos'}, 
                    {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
                    {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
                    {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
-      
-    
-    
+
+                   { name: 'Lizbeth Galicia',
+                    score: 0, 
+                    lane: '2 HEAT: 2',
+                    events:
+                    [{name: 'Evento 1', reps: 0, extra: 'Sin datos'}, 
+                     {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
+                     {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
+                     {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
+
+
+                     { name: 'Lorena Gallardo',
+                      score: 0, 
+                      lane: '3 HEAT: 3',
+                      events:
+                      [{name: 'Evento 1', reps: 0, extra: 'Sin datos'}, 
+                       {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
+                       {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
+                       {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
+
         
-           
-
-
-                    //HEAT 1 FIN 
-
-                    //HEAT 2 INICIO 
-            
-       
-                  
-
                       //HEAT 2 FIN 
                                                                                            
       ],
@@ -143,6 +154,16 @@ document.addEventListener('DOMContentLoaded', () => {
                {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
                {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
                {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
+
+               { name: 'Shem Huitron',
+                score: 0, 
+                lane: '4 HEAT: 1',
+                events:
+                [{name: 'Evento 1', reps: 0, extra: 'Sin datos'}, 
+                 {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
+                 {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
+                 {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
+          
         
   
 
