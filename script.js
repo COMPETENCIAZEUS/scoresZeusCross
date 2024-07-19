@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
     
     beginnerMen: [
           { name: 'Angel Castro',
-             score: 98, 
+             score: 0, 
              lane: '1 HEAT: 1',
               events: 
-              [{name: 'Evento 1', reps: 15, extra: 'Tc:15:30  '}, 
+              [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
                 {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
                 {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                 {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
@@ -20,13 +20,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
           { name: 'Alan Navarro',
-             score: 100, 
+             score: 0, 
              lane: '1  HEAT:2',
              events: 
-             [{name: 'Evento 1', reps: 20, extra: 'Tc:11:00'}, 
+             [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
                {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
                {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
-               {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
+               {name: 'Evento 4', reps: 0, extra: 'Tc:'}] }
+
 
 
            
@@ -34,7 +35,9 @@ document.addEventListener('DOMContentLoaded', () => {
                  ],
                  //pricipiantes hombres fin 
 
-                 //pricipiantes mujeres inicio 
+                 //pricipiantes mujeres 
+
+                 
 
 
       beginnerWomen: [
