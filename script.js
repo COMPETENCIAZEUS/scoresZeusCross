@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 {name: 'Evento 2', reps:  0, extra: 'Sin datos'}, 
                 {name: 'Evento 3', reps: 0, extra: 'Sin datos'}, 
                 {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
-
+                
 
 
 
@@ -184,20 +184,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
       intermediateWomen: [
         { name: 'Montserrat Gochi',
-          score: 0,
+          score: 98,
            lane: '1 HEAT: 1',
           events:
-          [{name: 'Evento 1', reps: 0, extra: 'Sin datos'}, 
+          [{name: 'Evento 1', reps: 150, extra: 'tc:8'}, 
            {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
            {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
            {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
     
 
              { name: 'Lucía Navarro',
-              score: 0,
+              score: 100,
                lane: '2 HEAT: 1',
               events:
-              [{name: 'Evento 1', reps: 0, extra: 'Sin datos'}, 
+              [{name: 'Evento 1', reps: 150, extra: 'TC:7'}, 
                {name: 'Evento 2', reps: 0, extra: 'Sin datos'}, 
                {name: 'Evento 3', reps: 0, extra: 'Sin datos'},
                {name: 'Evento 4', reps: 0, extra: 'Sin datos'}] },
@@ -253,4 +253,3 @@ document.addEventListener('DOMContentLoaded', () => {
 function redirectToInstagram(url) {
   window.location.href = url;
 }
-
