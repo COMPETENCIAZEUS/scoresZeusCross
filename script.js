@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
              score: 198, 
              lane: '1 HEAT: 1',
               events: 
-              [{name: 'Evento 1', reps: 0, extra: '72'}, 
+              [{name: 'Evento 1', reps: 72, extra: 'tc'}, 
                 {name: 'Evento 2', reps:  0, extra: 'Tc:4:56'}, 
                 {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                 {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
              score: 198, 
              lane: '1  HEAT:2',
              events: 
-             [{name: 'Evento 1', reps: 0, extra: '80 reps'}, 
+             [{name: 'Evento 1', reps: 80, extra: 'tc'}, 
                {name: 'Evento 2', reps:  0, extra: 'Tc:5:31'}, 
                {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                {name: 'Evento 4', reps: 0, extra: 'Tc:'}] }
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
           score: 198, 
           lane: '2 HEAT: 1',
           events: 
-          [{name: 'Evento 1', reps: 0, extra: '59 reps'}, 
+          [{name: 'Evento 1', reps: 59, extra: 'Tc'}, 
             {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
             {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
             {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
@@ -57,8 +57,8 @@ document.addEventListener('DOMContentLoaded', () => {
             score: 188, 
             lane: '3 HEAT: 1',
             events: 
-            [{name: 'Evento 1', reps: 0, extra: '70 reps'}, 
-              {name: 'Evento 2', reps:  0, extra: 'Tc:5:07'}, 
+            [{name: 'Evento 1', reps: 70, extra: 'Tc'}, 
+              {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
               {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
               {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
 
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     score: 186, 
                     lane: '2 HEAT: 2',
                     events: 
-                    [{name: 'Evento 1', reps: 0, extra: '56 reps'}, 
+                    [{name: 'Evento 1', reps: 56, extra: 'Tc:'}, 
                       {name: 'Evento 2', reps:  0, extra: 'Tc:4:53'}, 
                       {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                       {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
                       score: 198, 
                       lane: '3 HEAT: 2',
                       events: 
-                      [{name: 'Evento 1', reps: 0, extra: '112 reps'}, 
+                      [{name: 'Evento 1', reps: 112, extra: 'Tc:'}, 
                         {name: 'Evento 2', reps:  0, extra: 'Tc:3:56'}, 
                         {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                         {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         score: 187, 
                         lane: '4 HEAT: 2',
                         events: 
-                        [{name: 'Evento 1', reps: 0, extra: '77'}, 
+                        [{name: 'Evento 1', reps: 77, extra: 'Tc'}, 
                           {name: 'Evento 2', reps:  0, extra: 'Tc:5:20'}, 
                           {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                           {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
           score: 194,
            lane: '1 HEAT: 1',
            events: 
-              [{name: 'Evento 1', reps: 0, extra: '83 reps'}, 
+              [{name: 'Evento 1', reps: 83, extra: 'Tc:'}, 
                 {name: 'Evento 2', reps:  0, extra: 'Tc: 5:43'}, 
                 {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                 {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
             score: 200,
              lane: '1 HEAT: 2',
              events: 
-              [{name: 'Evento 1', reps: 0, extra: '94 reps'}, 
+              [{name: 'Evento 1', reps: 94, extra: 'Tc:'}, 
                 {name: 'Evento 2', reps:  0, extra: 'Tc:5:20'}, 
                 {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                 {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 score: 190, 
                 lane: '2 HEAT: 2',
                 events: 
-                [{name: 'Evento 1', reps: 0, extra: '77 reps'}, 
+                [{name: 'Evento 1', reps: 77, extra: '77 reps'}, 
                   {name: 'Evento 2', reps:  0, extra: 'Tc:6:08'}, 
                   {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                   {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     score: 192, 
                     lane: '2 HEAT: 2',
                     events: 
-                    [{name: 'Evento 1', reps: 0, extra: '79 reps'}, 
+                    [{name: 'Evento 1', reps: 79, extra: 'Tc:'}, 
                       {name: 'Evento 2', reps:  0, extra: 'Tc:5:37'}, 
                       {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                       {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
               score: 188,
                lane: '3 HEAT: 1',
                events: 
-               [{name: 'Evento 1', reps: 0, extra: '84'}, 
+               [{name: 'Evento 1', reps: 84, extra: 'Tc:'}, 
                  {name: 'Evento 2', reps:  0, extra: 'Tc:5:10'}, 
                  {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                  {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     score: 198,
                      lane: '4 HEAT: 1',
                      events: 
-                     [{name: 'Evento 1', reps: 0, extra: '92 reps'}, 
+                     [{name: 'Evento 1', reps: 92, extra: 'Tc:'}, 
                        {name: 'Evento 2', reps:  0, extra: 'Tc:4:38'}, 
                        {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                        {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
                       score: 186,
                        lane: '3 HEAT: 2',
                        events: 
-                       [{name: 'Evento 1', reps: 0, extra: '79'}, 
+                       [{name: 'Evento 1', reps: 79, extra: 'Tc:'}, 
                          {name: 'Evento 2', reps:  0, extra: 'Tc:5:08'}, 
                          {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                          {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         score: 190,
                          lane: '4 HEAT: 2',
                          events: 
-                         [{name: 'Evento 1', reps: 0, extra: '87 reps'}, 
+                         [{name: 'Evento 1', reps: 87, extra: 'Tc:'}, 
                            {name: 'Evento 2', reps:  0, extra: 'Tc:4:58'}, 
                            {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                            {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
@@ -237,7 +237,7 @@ document.addEventListener('DOMContentLoaded', () => {
                           score: 198,
                            lane: 'HEAT: 2',
                            events: 
-              [{name: 'Evento 1', reps: 0, extra: '83 reps'}, 
+              [{name: 'Evento 1', reps: 83, extra: 'Tc:'}, 
                 {name: 'Evento 2', reps:  0, extra: 'Tc:4:20'}, 
                 {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                 {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
