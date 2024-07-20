@@ -132,19 +132,19 @@ document.addEventListener('DOMContentLoaded', () => {
       intermediateMen: [
         
         { name: 'Erick Buendia',
-          score: 0,
+          score: 98,
            lane: '1 HEAT: 1',
            events: 
-              [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
+              [{name: 'Evento 1', reps: 0, extra: '83 reps'}, 
                 {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
                 {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                 {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
 
            { name: 'Cesar Pérez',
-            score: 0,
+            score: 100,
              lane: '1 HEAT: 2',
              events: 
-              [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
+              [{name: 'Evento 1', reps: 0, extra: '94 reps'}, 
                 {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
                 {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                 {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
@@ -153,14 +153,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
                { name: 'Shem Huitron',
-                score: 0, 
+                score: 96, 
                 lane: '2 HEAT: 2',
                 events: 
-                [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
+                [{name: 'Evento 1', reps: 0, extra: '77 reps'}, 
                   {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
                   {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                   {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
           
+
+
+                  { name: 'Jhair Hernandez',
+                    score: 94, 
+                    lane: '2 HEAT: 2',
+                    events: 
+                    [{name: 'Evento 1', reps: 0, extra: '79 reps'}, 
+                      {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
+                      {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+                      {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
+              
         
   
 
@@ -185,48 +196,48 @@ document.addEventListener('DOMContentLoaded', () => {
     
 
              { name: 'Lucía Navarro',
-              score: 0,
+              score: 96,
                lane: '3 HEAT: 1',
                events: 
-               [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
+               [{name: 'Evento 1', reps: 0, extra: '84'}, 
                  {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
                  {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                  {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
            
 
                    { name: 'Jessica Robles',
-                    score: 0,
+                    score: 100,
                      lane: '4 HEAT: 1',
                      events: 
-                     [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
+                     [{name: 'Evento 1', reps: 0, extra: '92 reps'}, 
                        {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
                        {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                        {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
 
                      { name: 'Montserrat Gochi',
-                      score: 0,
+                      score: 92,
                        lane: '3 HEAT: 2',
                        events: 
-                       [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
+                       [{name: 'Evento 1', reps: 0, extra: '79'}, 
                          {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
                          {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                          {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
 
                        { name: 'Catalina Cabrera',
-                        score: 0,
+                        score: 94,
                          lane: '4 HEAT: 2',
                          events: 
-                         [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
+                         [{name: 'Evento 1', reps: 0, extra: '87 reps'}, 
                            {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
                            {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                            {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
 
 
                          { name: 'Ivonne Suarez',
-                          score: 0,
+                          score: 98,
                            lane: 'HEAT: 2',
                            events: 
-              [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
+              [{name: 'Evento 1', reps: 0, extra: '83 reps'}, 
                 {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
                 {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                 {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
