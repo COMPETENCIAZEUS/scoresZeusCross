@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                      { name: 'Lorena Gallardo',
                       score: 0, 
-                      lane: '3 HEAT: 2',
+                      lane: '4 HEAT: 2',
                       events: 
                       [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
                         {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                        { name: 'Margarita Martinez',
                         score: 0, 
-                        lane: '4 HEAT: 2',
+                        lane: '5 HEAT: 2',
                         events: 
                         [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
                           {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
              { name: 'Lucía Navarro',
               score: 0,
-               lane: '3 HEAT: 1',
+               lane: '4 HEAT: 1',
                events: 
                [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
                  {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                    { name: 'Jessica Robles',
                     score: 0,
-                     lane: '4 HEAT: 1',
+                     lane: '5 HEAT: 1',
                      events: 
                      [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
                        {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
@@ -224,7 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                          { name: 'Ivonne Suarez',
                           score: 0,
-                           lane: 'HEAT: 2',
+                           lane: '5 HEAT: 2',
                            events: 
               [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
                 {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
