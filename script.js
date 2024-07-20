@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
                        {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
 
                      { name: 'Montserrat Gochi',
-                      score: 277,
+                      score: 280,
                        lane: '2 HEAT: 4',
                        events: 
                        [{name: 'Evento 1', reps: 79, extra: 'Tc:'}, 
