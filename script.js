@@ -69,11 +69,11 @@ document.addEventListener('DOMContentLoaded', () => {
               [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
                 {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
                 {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
-                {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
+                {name: 'Evento 4', reps: 0, extra: 'LBS:'}] },
   
       
                { name: 'Sofia Navarro',
-                score: 290, 
+                score: 300, 
                 lane: '5 HEAT: 1',
                 events: 
                 [{name: 'Evento 1', reps: 0, extra: 'Tc: 7:48'}, 
