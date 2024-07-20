@@ -160,6 +160,17 @@ document.addEventListener('DOMContentLoaded', () => {
                   {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
                   {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
                   {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
+
+
+           { name: 'Jahir Hernandez',
+                score: 0, 
+                lane: '2 HEAT: 1',
+                events: 
+                [{name: 'Evento 1', reps: 0, extra: 'Tc:'}, 
+                  {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
+                  {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+                  {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
+          
           
         
   
