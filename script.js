@@ -8,24 +8,24 @@ document.addEventListener('DOMContentLoaded', () => {
     
     beginnerMen: [
           { name: 'Angel Castro',
-             score: 198, 
+             score: 296, 
              lane: '1 HEAT: 1',
               events: 
               [{name: 'Evento 1', reps: 72, extra: 'tc'}, 
                 {name: 'Evento 2', reps:  0, extra: 'Tc:4:56'}, 
-                {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+                {name: 'Evento 3', reps: 0, extra: 'Tc:7:16'}, 
                 {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
                 
 
 
 
           { name: 'Alan Navarro',
-             score: 198, 
+             score: 298, 
              lane: '1  HEAT:2',
              events: 
              [{name: 'Evento 1', reps: 80, extra: 'tc'}, 
                {name: 'Evento 2', reps:  0, extra: 'Tc:5:31'}, 
-               {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+               {name: 'Evento 3', reps: 0, extra: 'Tc:5:09'}, 
                {name: 'Evento 4', reps: 0, extra: 'Tc:'}] }
 
 
@@ -42,24 +42,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
       beginnerWomen: [
         { name: 'Gaylid Cruz',
-          score: 198, 
+          score: 288, 
           lane: '2 HEAT: 1',
           events: 
           [{name: 'Evento 1', reps: 59, extra: 'Tc'}, 
             {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
-            {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+            {name: 'Evento 3', reps: 48, extra: 'Tc:'}, 
             {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
 
 
     
 
            { name: 'Lizbeth Galicia',
-            score: 188, 
+            score: 280, 
             lane: '3 HEAT: 1',
             events: 
             [{name: 'Evento 1', reps: 70, extra: 'Tc'}, 
               {name: 'Evento 2', reps:  0, extra: 'Tc:'}, 
-              {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+              {name: 'Evento 3', reps: 0, extra: 'Tc:9:14'}, 
               {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
 
              { name: 'Ali Mota',
@@ -73,12 +73,12 @@ document.addEventListener('DOMContentLoaded', () => {
   
       
                { name: 'Sofia Navarro',
-                score: 190, 
+                score: 290, 
                 lane: '5 HEAT: 1',
                 events: 
                 [{name: 'Evento 1', reps: 0, extra: 'Tc: 7:48'}, 
                   {name: 'Evento 2', reps:  0, extra: 'Tc:5:34'}, 
-                  {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+                  {name: 'Evento 3', reps: 0, extra: 'Tc:4:32'}, 
                   {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
 
                 
@@ -90,32 +90,32 @@ document.addEventListener('DOMContentLoaded', () => {
                    //heat 2 inicio
 
                    { name: 'Ana Perez',
-                    score: 186, 
+                    score: 280, 
                     lane: '2 HEAT: 2',
                     events: 
                     [{name: 'Evento 1', reps: 56, extra: 'Tc:'}, 
                       {name: 'Evento 2', reps:  0, extra: 'Tc:4:53'}, 
-                      {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+                      {name: 'Evento 3', reps: 0, extra: 'Tc:7:31'}, 
                       {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
 
 
                      { name: 'Lorena Gallardo',
-                      score: 198, 
+                      score: 294, 
                       lane: '3 HEAT: 2',
                       events: 
                       [{name: 'Evento 1', reps: 112, extra: 'Tc:'}, 
                         {name: 'Evento 2', reps:  0, extra: 'Tc:3:56'}, 
-                        {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+                        {name: 'Evento 3', reps: 0, extra: 'Tc:5:48'}, 
                         {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
 
 
                        { name: 'Margarita Martinez',
-                        score: 187, 
+                        score: 285, 
                         lane: '4 HEAT: 2',
                         events: 
                         [{name: 'Evento 1', reps: 77, extra: 'Tc'}, 
                           {name: 'Evento 2', reps:  0, extra: 'Tc:5:20'}, 
-                          {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+                          {name: 'Evento 3', reps: 0, extra: 'Tc:5:42'}, 
                           {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
 
         
@@ -132,44 +132,44 @@ document.addEventListener('DOMContentLoaded', () => {
       intermediateMen: [
         
         { name: 'Erick Buendia',
-          score: 194,
+          score: 290,
            lane: '1 HEAT: 1',
            events: 
               [{name: 'Evento 1', reps: 83, extra: 'Tc:'}, 
                 {name: 'Evento 2', reps:  0, extra: 'Tc: 5:43'}, 
-                {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+                {name: 'Evento 3', reps: 0, extra: 'Tc:6:53'}, 
                 {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
 
            { name: 'Cesar Pérez',
-            score: 200,
+            score: 300,
              lane: '1 HEAT: 2',
              events: 
               [{name: 'Evento 1', reps: 94, extra: 'Tc:'}, 
                 {name: 'Evento 2', reps:  0, extra: 'Tc:5:20'}, 
-                {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+                {name: 'Evento 3', reps: 0, extra: 'Tc:4:56'}, 
                 {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
         
       
 
 
                { name: 'Shem Huitron',
-                score: 190, 
+                score: 288, 
                 lane: '2 HEAT: 2',
                 events: 
                 [{name: 'Evento 1', reps: 77, extra: '77 reps'}, 
                   {name: 'Evento 2', reps:  0, extra: 'Tc:6:08'}, 
-                  {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+                  {name: 'Evento 3', reps: 0, extra: 'Tc:6:20'}, 
                   {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
           
 
 
                   { name: 'Jhair Hernandez',
-                    score: 192, 
+                    score: 286, 
                     lane: '2 HEAT: 2',
                     events: 
                     [{name: 'Evento 1', reps: 79, extra: 'Tc:'}, 
                       {name: 'Evento 2', reps:  0, extra: 'Tc:5:37'}, 
-                      {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+                      {name: 'Evento 3', reps: 0, extra: 'Tc:7:45'}, 
                       {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
               
         
@@ -196,50 +196,50 @@ document.addEventListener('DOMContentLoaded', () => {
     
 
              { name: 'Lucía Navarro',
-              score: 188,
+              score: 282,
                lane: '3 HEAT: 1',
                events: 
                [{name: 'Evento 1', reps: 84, extra: 'Tc:'}, 
                  {name: 'Evento 2', reps:  0, extra: 'Tc:5:10'}, 
-                 {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+                 {name: 'Evento 3', reps: 0, extra: 'Tc:7:50'}, 
                  {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
            
 
                    { name: 'Jessica Robles',
-                    score: 198,
+                    score: 296,
                      lane: '4 HEAT: 1',
                      events: 
                      [{name: 'Evento 1', reps: 92, extra: 'Tc:'}, 
                        {name: 'Evento 2', reps:  0, extra: 'Tc:4:38'}, 
-                       {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+                       {name: 'Evento 3', reps: 0, extra: 'Tc:6:58'}, 
                        {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
 
                      { name: 'Montserrat Gochi',
-                      score: 186,
+                      score: 277,
                        lane: '3 HEAT: 2',
                        events: 
                        [{name: 'Evento 1', reps: 79, extra: 'Tc:'}, 
                          {name: 'Evento 2', reps:  0, extra: 'Tc:5:08'}, 
-                         {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+                         {name: 'Evento 3', reps: 0, extra: 'Tc:9:54'}, 
                          {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
 
                        { name: 'Catalina Cabrera',
-                        score: 190,
+                        score: 293,
                          lane: '4 HEAT: 2',
                          events: 
                          [{name: 'Evento 1', reps: 87, extra: 'Tc:'}, 
                            {name: 'Evento 2', reps:  0, extra: 'Tc:4:58'}, 
-                           {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+                           {name: 'Evento 3', reps: 0, extra: 'Tc:6:05'}, 
                            {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
 
 
                          { name: 'Ivonne Suarez',
-                          score: 198,
+                          score: 298,
                            lane: 'HEAT: 2',
                            events: 
               [{name: 'Evento 1', reps: 83, extra: 'Tc:'}, 
                 {name: 'Evento 2', reps:  0, extra: 'Tc:4:20'}, 
-                {name: 'Evento 3', reps: 0, extra: 'Tc:'}, 
+                {name: 'Evento 3', reps: 0, extra: 'Tc:5:31'}, 
                 {name: 'Evento 4', reps: 0, extra: 'Tc:'}] },
                     
                 
